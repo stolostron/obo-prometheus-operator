@@ -1,0 +1,4 @@
+[submodule "rhobs-obo-prometheus-operator"]
+	path = rhobs-obo-prometheus-operator
+	url = git@github.com:rhobs/obo-prometheus-operator.git
+	branch = rhobs-rel-0.87.0-rhobs1
