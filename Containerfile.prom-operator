@@ -15,7 +15,7 @@ FROM registry.access.redhat.com/ubi9/ubi-minimal:latest
 COPY --from=builder /workspace/operator /bin/operator
 COPY --from=builder /workspace/LICENSE      /licenses/.
 
-USER nobody
+USER 1001
 
 LABEL com.redhat.component="prometheus-operator" \
   name="rhacm2/acm-obo-prometheus-rhel9-operator" \
